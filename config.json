@@ -1,0 +1,41 @@
+{
+"Server": ["HW-LT-00-47\\SQL2022"],
+"Properties":  [
+        {
+            "Variant": "CreateObjects",
+            "database": "60_MDM",
+            "schema": "config",
+            "table": "DataBaseObjects",
+            "SP": "config.create_etl_objects",
+            "sheet": 1,
+            "fabric":true
+        },
+        {
+            "Variant": "Create_ETL_lookup",
+            "database": "60_MDM",
+            "schema": "config",
+            "table": "ETL_lookup",
+            "SP": "config.create_etl_lookup",
+            "sheet": 2,
+            "fabric": true
+        },
+        {
+            "Variant": "Import_Data",
+            "database": "60_MDM",
+            "schema": "dbo",
+            "table": "Import",
+            "SP":"",
+            "sheet": 1,
+            "fabric": true
+        },
+        {
+            "Variant": "Import_Data",
+            "database": "60_MDM",
+            "schema": "dbo",
+            "table": "Import",
+            "SP":"",
+            "sheet": 1,
+            "fabric": true
+        }
+    ]  
+}

@@ -1,0 +1,25 @@
+1.0
+Entra Login
+Wertreue beim Import (Behandlung als Text)
+Behandlung für Dezimalzahlen. 
+
+
+05
+Verschiedene Verbesserungen u.a Parallelverarbeitung
+Alternativ zur Sheetreihenfolge, kann auch der Sheetname (Case Sensitive) in der Konfiguration verwendet werden
+
+ver 041
+Changes:
+Verwendeter Treiber SQL Driver -> odbc 17
+
+ver 04
+
+New Features:
+Support for SQL-Login
+Execution of SPs are optional (checkbox)
+A logfile is created
+Besides of selecting the servername from configuration, it can also be entered manually
+
+
+Changes:
+Message gets reset when executing again.

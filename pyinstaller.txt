@@ -1,0 +1,1 @@
+pyinstaller import100.py -F -n SysconImportWizard10 --hidden-import=asyncio.base_events
